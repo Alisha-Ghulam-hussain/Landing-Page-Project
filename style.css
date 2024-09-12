@@ -1,0 +1,136 @@
+/* css reset  */
+body {
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "Inter", sans-serif; */
+  font-family: 'Baloo Bhai';
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background: url(img/bg.jpg);
+
+}
+
+.left {
+  /* border: 2px solid rgb(24, 22, 22); */
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+
+
+}
+
+.left img {
+  filter: invert(100);
+  width: 95px;
+  margin-left: 38px;
+  cursor: pointer;
+}
+
+.logo-name {
+  line-height: 18px;
+  font-size: 20px;
+  margin-left: 32px;
+}
+
+.left div {
+  text-align: center;
+}
+
+.centre {
+  /* border: 2px solid white;  */
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  width: 750px;
+
+}
+
+.right {
+  /* border: 2px solid white; */
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 43px;
+}
+
+.btn {
+  font-family: 'Baloo Bhai';
+  font-size: 20px;
+  color: white;
+  /* background-color: rgb(26, 25, 25); */
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px 20px;
+  background: none;
+
+  transition: background-color  0.5s , 
+  color 0.5s ;
+}
+
+.btn:hover {
+  border:2px solid rgb(20, 19, 19);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+/* 
+.btn:hover {
+  background-color: rgb(48, 47, 47);
+} */
+
+.navbar {
+  display: inline-block;
+
+}
+
+.navbar li {
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-family: "Inter", sans-serif; */
+  font-family: 'Baloo Bhai';
+  display: inline-block;
+  font-size: 25px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 34px;
+}
+
+.navbar li :hover,
+.navbar li :active {
+  cursor: pointer;
+  color: rgb(156, 147, 147);
+  text-decoration: underline;
+}
+.container {
+  border: 3px solid white;
+  border-radius: 28px;
+  margin: 106px 1050px;
+  padding: 80px;
+  width: 30%;
+} 
+.container h1 {
+  text-align: center;
+}
+.form-fill  input{
+  font-family: 'Baloo Bhai';  
+  text-align: center ;
+  margin: 11px auto; 
+  /* margin: 11px auto; */
+  width: 55%;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding:2px ;
+  display: block;
+}
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
+
+
